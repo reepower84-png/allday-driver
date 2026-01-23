@@ -31,7 +31,7 @@ export default function Footer() {
               고객님의 안전한 귀가를 책임집니다.
             </p>
             <p className="text-accent-400 font-medium">
-              "술자리는 끝나도, 안전은 끝나지 않습니다."
+              &ldquo;술자리는 끝나도, 안전은 끝나지 않습니다.&rdquo;
             </p>
           </div>
 
