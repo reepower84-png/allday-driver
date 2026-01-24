@@ -7,7 +7,9 @@ import Image from 'next/image'
 const navItems = [
   { id: 'home', label: '홈' },
   { id: 'services', label: '서비스' },
+  { id: 'franchise', label: '창업안내' },
   { id: 'why-us', label: '왜 올데이대리?' },
+  { id: 'recruitment', label: '기사 모집' },
   { id: 'contact', label: '기사님 호출하기' },
 ]
 
