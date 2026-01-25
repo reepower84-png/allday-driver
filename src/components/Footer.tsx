@@ -65,18 +65,10 @@ export default function Footer() {
               </li>
               <li>
                 <button
-                  onClick={() => scrollToSection('contact')}
-                  className="text-gray-400 hover:text-white transition-colors"
-                >
-                  기사님 호출하기
-                </button>
-              </li>
-              <li>
-                <button
                   onClick={() => scrollToSection('recruitment')}
                   className="text-gray-400 hover:text-white transition-colors"
                 >
-                  기사님 모집
+                  기사 모집
                 </button>
               </li>
               <li>
@@ -85,6 +77,14 @@ export default function Footer() {
                   className="text-gray-400 hover:text-white transition-colors"
                 >
                   창업안내
+                </button>
+              </li>
+              <li>
+                <button
+                  onClick={() => scrollToSection('contact')}
+                  className="text-gray-400 hover:text-white transition-colors"
+                >
+                  기사님 호출하기
                 </button>
               </li>
             </ul>
