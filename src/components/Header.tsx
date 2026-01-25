@@ -120,7 +120,7 @@ export default function Header() {
       {/* Mobile Navigation */}
       <div
         className={`md:hidden transition-all duration-300 overflow-hidden ${
-          isMenuOpen ? 'max-h-96' : 'max-h-0'
+          isMenuOpen ? 'max-h-[500px]' : 'max-h-0'
         }`}
       >
         <nav className="bg-white border-t shadow-lg">
