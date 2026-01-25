@@ -48,7 +48,7 @@ export default function ContactForm() {
   }
 
   return (
-    <section id="contact" className="py-20 md:py-32 bg-gradient-to-br from-primary-900 via-primary-800 to-primary-900">
+    <section id="contact" className="py-20 md:py-32 bg-gradient-to-br from-primary-900 via-primary-800 to-primary-900 overflow-hidden">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid lg:grid-cols-2 gap-12 lg:gap-20 items-center">
           {/* Left Side - Content */}

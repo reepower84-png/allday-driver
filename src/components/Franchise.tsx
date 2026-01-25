@@ -42,7 +42,7 @@ export default function Franchise() {
   }
 
   return (
-    <section id="franchise" className="py-20 md:py-32 bg-white">
+    <section id="franchise" className="py-20 md:py-32 bg-white overflow-hidden">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Section Header */}
         <div className="text-center mb-16">
