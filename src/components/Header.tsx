@@ -60,14 +60,14 @@ export default function Header() {
           {/* Logo */}
           <button
             onClick={() => scrollToSection('home')}
-            className="flex items-center gap-2 group"
+            className="flex items-center gap-2 group flex-shrink-0 max-w-[60%] md:max-w-none"
           >
             <Image
               src="/올데이대리_로고_2-removebg-preview.png"
               alt="올데이대리·탁송"
               width={280}
               height={80}
-              className="h-12 md:h-20 w-auto"
+              className="h-10 md:h-20 w-auto"
             />
           </button>
 
@@ -106,7 +106,7 @@ export default function Header() {
           {/* Mobile Menu Button */}
           <button
             onClick={() => setIsMenuOpen(!isMenuOpen)}
-            className={`md:hidden p-2 rounded-lg transition-colors ${
+            className={`md:hidden p-2 rounded-lg transition-colors flex-shrink-0 ${
               isScrolled
                 ? 'text-gray-900 hover:bg-gray-100'
                 : 'text-white hover:bg-white/10'
