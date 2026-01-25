@@ -67,7 +67,7 @@ export default function Header() {
               alt="올데이대리·탁송"
               width={280}
               height={80}
-              className="h-20 w-auto"
+              className="h-12 md:h-20 w-auto"
             />
           </button>
 
