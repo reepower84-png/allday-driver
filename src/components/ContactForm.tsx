@@ -1,7 +1,7 @@
 'use client'
 
 import { useState } from 'react'
-import { Send, CheckCircle, AlertCircle, Phone, User, MessageSquare } from 'lucide-react'
+import { Send, CheckCircle, AlertCircle, Phone, User, MessageSquare, MessageCircle } from 'lucide-react'
 
 export default function ContactForm() {
   const [formData, setFormData] = useState({
@@ -195,6 +195,16 @@ export default function ContactForm() {
                     </>
                   )}
                 </button>
+
+                <a
+                  href="http://pf.kakao.com/_Uugxlj/chat"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="w-full bg-[#FEE500] hover:bg-[#FDD835] text-[#3C1E1E] py-4 rounded-xl font-semibold text-lg transition-all hover:scale-[1.02] flex items-center justify-center gap-2"
+                >
+                  <MessageCircle className="w-5 h-5" />
+                  카카오톡으로 상담하기
+                </a>
 
                 <p className="text-center text-sm text-gray-500">
                   상담 신청 시 개인정보 수집 및 이용에 동의하게 됩니다.
