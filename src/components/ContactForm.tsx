@@ -67,12 +67,15 @@ export default function ContactForm() {
 
             {/* 안내 메시지 박스 */}
             <div className="space-y-4 mb-8">
-              <div className="bg-accent-400 text-primary-900 rounded-2xl p-5 shadow-lg">
-                <p className="text-lg font-bold flex items-center gap-2">
-                  <span className="bg-primary-900 text-accent-400 w-8 h-8 rounded-full flex items-center justify-center text-sm font-bold">1</span>
-                  기사님 호출이 필요하시면 전화 연락주세요 - 1800-0238
+              <a
+                href="tel:1800-0238"
+                className="block bg-accent-400 hover:bg-accent-500 text-primary-900 rounded-2xl p-5 shadow-lg transition-all hover:scale-[1.02]"
+              >
+                <p className="text-lg font-bold flex items-start gap-2">
+                  <span className="bg-primary-900 text-accent-400 w-8 h-8 rounded-full flex items-center justify-center text-sm font-bold flex-shrink-0">1</span>
+                  <span>기사님 호출이 필요하시면 전화 연락주세요 - 1800-0238 ☞ 클릭 시 전화 연결</span>
                 </p>
-              </div>
+              </a>
               <div className="bg-white/10 backdrop-blur-sm border border-white/20 text-white rounded-2xl p-5">
                 <p className="text-lg font-bold flex items-center gap-2">
                   <span className="bg-accent-400 text-primary-900 w-8 h-8 rounded-full flex items-center justify-center text-sm font-bold">2</span>
