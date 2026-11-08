@@ -1,4 +1,5 @@
 import { supabase } from './supabase'
+import { backupFetch } from "./inquiry-backup";
 
 export interface Inquiry {
   id: string
@@ -135,7 +136,7 @@ export async function sendDiscordNotification(inquiry: Inquiry) {
   }
 
   try {
-    await fetch(webhookUrl, {
+    await backupFetch(webhookUrl, {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
